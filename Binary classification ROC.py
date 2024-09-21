@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from xgboost import XGBClassifier
 import numpy as np
 data = pd.read_csv(r'data.csv',engine='python',encoding='gb18030',delimiter=",")
-X=data.drop(['住院号','y'], axis=1)
+X=data.drop(['id','y'], axis=1)
 Y=data['y']
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.3,random_state=0)
 transfer=StandardScaler()
