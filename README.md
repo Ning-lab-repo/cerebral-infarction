@@ -5,7 +5,6 @@ Cerebral infarction is a common type of stroke that poses a significant health b
 # The description of cerebral-infarction source codes  
   Match and transpose data.py The code is used for matching the test results and health status of the same participants by ID in two files; removing duplicate entries for the same individual, retaining only one row; and converting the file format into a Python-readable format.  
   Delete missing values.py The code is used for removing samples with excessive missing values and features with too many missing values, and then using KNN to impute the remaining missing values.  
-  
   Search parameters.py This code is used to search for the optimal parameters of a machine learning model for subsequent analysis.  
   Multiple model ROC.py This code is used to plot the binary classification ROC curves of multiple machine learning models on a single graph.  
   Shap.py This code is used to explain the intermediate processes of a machine learning model and display the top ten features that contribute the most to the model.
